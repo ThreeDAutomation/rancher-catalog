@@ -1,0 +1,13 @@
+.catalog:
+  name: "Jenkins"
+  version: "latest"
+  description: "Jankins product"
+  uuid: jenkins-0
+  minimum_rancher_version: v0.51.0
+  questions:
+    - variable: http_port
+      description: "HTTP port value"
+      label: "Jenkins HTTP port"
+      required: true
+      default: "8080"
+      type: "int"
